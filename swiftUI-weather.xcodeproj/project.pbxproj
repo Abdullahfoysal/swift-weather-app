@@ -12,6 +12,9 @@
 		BACFB8F62A5537FA00F75644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACFB8F52A5537FA00F75644 /* Assets.xcassets */; };
 		BACFB8F92A5537FA00F75644 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACFB8F82A5537FA00F75644 /* Preview Assets.xcassets */; };
 		BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB8FF2A555E2100F75644 /* WeatherButton.swift */; };
+		BACFB9022A557EAA00F75644 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB9012A557EAA00F75644 /* VideoListView.swift */; };
+		BACFB9042A558E2600F75644 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB9032A558E2600F75644 /* Video.swift */; };
+		BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB9072A5594BD00F75644 /* VideoDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		BACFB8F52A5537FA00F75644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BACFB8F82A5537FA00F75644 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BACFB8FF2A555E2100F75644 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		BACFB9012A557EAA00F75644 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		BACFB9032A558E2600F75644 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		BACFB9072A5594BD00F75644 /* VideoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +59,14 @@
 		BACFB8F02A5537F800F75644 /* swiftUI-weather */ = {
 			isa = PBXGroup;
 			children = (
+				BACFB9012A557EAA00F75644 /* VideoListView.swift */,
+				BACFB9032A558E2600F75644 /* Video.swift */,
 				BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */,
 				BACFB8F32A5537F800F75644 /* ContentView.swift */,
 				BACFB8FF2A555E2100F75644 /* WeatherButton.swift */,
 				BACFB8F52A5537FA00F75644 /* Assets.xcassets */,
 				BACFB8F72A5537FA00F75644 /* Preview Content */,
+				BACFB9072A5594BD00F75644 /* VideoDetailsView.swift */,
 			);
 			path = "swiftUI-weather";
 			sourceTree = "<group>";
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BACFB9022A557EAA00F75644 /* VideoListView.swift in Sources */,
 				BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */,
 				BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */,
+				BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */,
 				BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */,
+				BACFB9042A558E2600F75644 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
