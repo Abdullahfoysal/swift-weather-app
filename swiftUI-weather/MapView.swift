@@ -75,13 +75,13 @@ final class MapViewModel: NSObject, ObservableObject, CLLocationManagerDelegate 
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        //checkLocationAuthorization()
+        checkLocationAuthorization()
         print("print hello tracking...")
-        if let location = locations.last {
-            let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-            region = MKCoordinateRegion(center: center, span: mapDetails.defaultSpan)
-            //        }
-        }
+//        if let location = locations.last {
+//            let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
+//            region = MKCoordinateRegion(center: center, span: mapDetails.defaultSpan)
+//            //        }
+//        }
     }
     
     
