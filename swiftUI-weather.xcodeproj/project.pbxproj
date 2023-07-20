@@ -20,6 +20,7 @@
 		BA07DDA42A5D8AC600CBDBD0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DDA32A5D8AC600CBDBD0 /* GameViewModel.swift */; };
 		BA07DDA62A5D8B4B00CBDBD0 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DDA52A5D8B4B00CBDBD0 /* Alerts.swift */; };
 		BA323CDA2A68EF7400026F86 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA323CD92A68EF7400026F86 /* MapView.swift */; };
+		BA323CDD2A691C6D00026F86 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA323CDC2A691C6D00026F86 /* SegmentView.swift */; };
 		BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51651A2A5E9FCF004A4BFA /* FormUI.swift */; };
 		BA5C0A452A5B056500DB27F7 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C0A442A5B056500DB27F7 /* Alerts.swift */; };
 		BA5C0A472A5B139500DB27F7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */; };
@@ -94,6 +95,7 @@
 		BA07DDA52A5D8B4B00CBDBD0 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		BA323CD92A68EF7400026F86 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BA323CDB2A6909E200026F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BA323CDC2A691C6D00026F86 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		BA51651A2A5E9FCF004A4BFA /* FormUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUI.swift; sourceTree = "<group>"; };
 		BA5C0A442A5B056500DB27F7 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -201,15 +203,16 @@
 			isa = PBXGroup;
 			children = (
 				BA323CDB2A6909E200026F86 /* Info.plist */,
+				BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */,
 				BA51651A2A5E9FCF004A4BFA /* FormUI.swift */,
 				BA323CD92A68EF7400026F86 /* MapView.swift */,
+				BA323CDC2A691C6D00026F86 /* SegmentView.swift */,
 				BACFB9012A557EAA00F75644 /* VideoListView.swift */,
 				BA7B3B902A56956F0066CA91 /* Gaming.swift */,
 				BA7B3B922A56EEE50066CA91 /* TicTacView.swift */,
 				BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */,
 				BA5C0A442A5B056500DB27F7 /* Alerts.swift */,
 				BACFB9032A558E2600F75644 /* Video.swift */,
-				BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */,
 				BACFB8F32A5537F800F75644 /* ContentView.swift */,
 				BACFB8FF2A555E2100F75644 /* WeatherButton.swift */,
 				BACFB8F52A5537FA00F75644 /* Assets.xcassets */,
@@ -439,6 +442,7 @@
 				BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */,
 				BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */,
 				BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */,
+				BA323CDD2A691C6D00026F86 /* SegmentView.swift in Sources */,
 				BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */,
 				BA7B3B912A56956F0066CA91 /* Gaming.swift in Sources */,
 				BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */,
