@@ -12,7 +12,7 @@ struct VideoListView: View {
     var videos: [Video] = VideoList.topTen
     
     var body: some View{
-        NavigationView{
+        NavigationView {
             List(videos,id: \.id) { video in
                 
                 NavigationLink(destination: VideoDetailsView(video: video), label: {

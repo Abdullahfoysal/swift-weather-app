@@ -27,6 +27,7 @@
 		BA7B3B912A56956F0066CA91 /* Gaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B3B902A56956F0066CA91 /* Gaming.swift */; };
 		BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B3B922A56EEE50066CA91 /* TicTacView.swift */; };
 		BAC8893E2A693E92009C92F0 /* NavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */; };
+		BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893F2A695751009C92F0 /* ImagePickerView.swift */; };
 		BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */; };
 		BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB8F32A5537F800F75644 /* ContentView.swift */; };
 		BACFB8F62A5537FA00F75644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACFB8F52A5537FA00F75644 /* Assets.xcassets */; };
@@ -103,6 +104,7 @@
 		BA7B3B902A56956F0066CA91 /* Gaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming.swift; sourceTree = "<group>"; };
 		BA7B3B922A56EEE50066CA91 /* TicTacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacView.swift; sourceTree = "<group>"; };
 		BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExampleView.swift; sourceTree = "<group>"; };
+		BAC8893F2A695751009C92F0 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		BACFB8EE2A5537F800F75644 /* swiftUI-weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_weatherApp.swift; sourceTree = "<group>"; };
 		BACFB8F32A5537F800F75644 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				BACFB9012A557EAA00F75644 /* VideoListView.swift */,
 				BA7B3B902A56956F0066CA91 /* Gaming.swift */,
 				BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */,
+				BAC8893F2A695751009C92F0 /* ImagePickerView.swift */,
 				BA7B3B922A56EEE50066CA91 /* TicTacView.swift */,
 				BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */,
 				BA5C0A442A5B056500DB27F7 /* Alerts.swift */,
@@ -443,6 +446,7 @@
 				BA323CDA2A68EF7400026F86 /* MapView.swift in Sources */,
 				BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */,
 				BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */,
+				BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */,
 				BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */,
 				BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */,
 				BA323CDD2A691C6D00026F86 /* SegmentView.swift in Sources */,
