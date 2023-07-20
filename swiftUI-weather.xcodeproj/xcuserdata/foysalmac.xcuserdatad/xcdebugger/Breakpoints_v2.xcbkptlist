@@ -84,5 +84,213 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C64231B1-67A9-485A-92E2-D807091CFA9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftUI-weather/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C64231B1-67A9-485A-92E2-D807091CFA9A - 1c48433bbab3a1a7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "82"
+                  endingLineNumber = "82"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "C64231B1-67A9-485A-92E2-D807091CFA9A - 1c48433bbab3a1e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EE6FB6AF-F62A-4386-B1B0-6B6F91CCE19F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftUI-weather/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "MapViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EE6FB6AF-F62A-4386-B1B0-6B6F91CCE19F - 9f5d0a0d1881be54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.checkLocationAuthorization() -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "EE6FB6AF-F62A-4386-B1B0-6B6F91CCE19F - 1c48433bbab3a1e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14E0B56F-0283-4DC0-9EA9-E8071557656A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftUI-weather/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "MapViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "14E0B56F-0283-4DC0-9EA9-E8071557656A - 775b33cd22a1788d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.locationManagerDidChangeAuthorization(__C.CLLocationManager) -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "14E0B56F-0283-4DC0-9EA9-E8071557656A - 1c48433bbab3a142"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.locationManager(_: __C.CLLocationManager, didUpdateLocations: Swift.Array&lt;__C.CLLocation&gt;) -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BD0EEB5-AC47-404A-ADBE-3BE698149101"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftUI-weather/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "locationManagerDidChangeAuthorization(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7BD0EEB5-AC47-404A-ADBE-3BE698149101 - 9f5d0a0d1881be16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.checkLocationAuthorization() -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "456">
+               </Location>
+               <Location
+                  uuid = "7BD0EEB5-AC47-404A-ADBE-3BE698149101 - 9f5d0a0d1881be37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "swiftUI_weather.MapViewModel.checkLocationAuthorization() -&gt; ()"
+                  moduleName = "swiftUI-weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/foysalmac/Documents/IOS%20DEV/swiftUI-weather/swiftUI-weather/MapView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6CFE652-9EC4-4DB7-8794-3CD8D85F16C5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftUI-weather/MapView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -19,6 +19,7 @@
 		BA07DD9B2A5D88E900CBDBD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD9A2A5D88E900CBDBD0 /* Preview Assets.xcassets */; };
 		BA07DDA42A5D8AC600CBDBD0 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DDA32A5D8AC600CBDBD0 /* GameViewModel.swift */; };
 		BA07DDA62A5D8B4B00CBDBD0 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DDA52A5D8B4B00CBDBD0 /* Alerts.swift */; };
+		BA323CDA2A68EF7400026F86 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA323CD92A68EF7400026F86 /* MapView.swift */; };
 		BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA51651A2A5E9FCF004A4BFA /* FormUI.swift */; };
 		BA5C0A452A5B056500DB27F7 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C0A442A5B056500DB27F7 /* Alerts.swift */; };
 		BA5C0A472A5B139500DB27F7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */; };
@@ -91,6 +92,8 @@
 		BA07DD9A2A5D88E900CBDBD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA07DDA32A5D8AC600CBDBD0 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		BA07DDA52A5D8B4B00CBDBD0 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		BA323CD92A68EF7400026F86 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BA323CDB2A6909E200026F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BA51651A2A5E9FCF004A4BFA /* FormUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormUI.swift; sourceTree = "<group>"; };
 		BA5C0A442A5B056500DB27F7 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
@@ -197,7 +200,9 @@
 		BACFB8F02A5537F800F75644 /* swiftUI-weather */ = {
 			isa = PBXGroup;
 			children = (
+				BA323CDB2A6909E200026F86 /* Info.plist */,
 				BA51651A2A5E9FCF004A4BFA /* FormUI.swift */,
+				BA323CD92A68EF7400026F86 /* MapView.swift */,
 				BACFB9012A557EAA00F75644 /* VideoListView.swift */,
 				BA7B3B902A56956F0066CA91 /* Gaming.swift */,
 				BA7B3B922A56EEE50066CA91 /* TicTacView.swift */,
@@ -429,6 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACFB9022A557EAA00F75644 /* VideoListView.swift in Sources */,
+				BA323CDA2A68EF7400026F86 /* MapView.swift in Sources */,
 				BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */,
 				BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */,
 				BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */,
@@ -763,6 +769,9 @@
 				DEVELOPMENT_TEAM = 2FT7VLBPP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftUI-weather/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This need app need your location to show on map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This need app need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -792,6 +801,9 @@
 				DEVELOPMENT_TEAM = 2FT7VLBPP5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftUI-weather/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This need app need your location to show on map";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This need app need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
