@@ -11,7 +11,11 @@ import SwiftUI
 struct swiftUI_weatherApp: App {
     var body: some Scene {
         WindowGroup {
-            ImagePickerView()
+            Group {
+                ImagePickerView()
+                ImagePickerView()
+            }
+           
         }
     }
 }

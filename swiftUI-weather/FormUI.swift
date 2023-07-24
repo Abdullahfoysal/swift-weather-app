@@ -15,7 +15,7 @@ struct FormUI: View {
     @State private var numberOfLikes: Int = 1
     var body: some View {
         
-        NavigationView {
+        NavigationView{
             Form {
                 Section(header: Text("Personal Information")){
                     TextField("First Name",text: $firstName)
@@ -26,7 +26,9 @@ struct FormUI: View {
                     Toggle("Send NewsLetter",isOn: $shouldSendNewsletter)
                         .toggleStyle(SwitchToggleStyle(tint: .red))
                     
-                    Stepper("Number of Likes",value: $numberOfLikes, in: 1...100)
+                    Stepper("Number of Likes k",value: $numberOfLikes, in: 1...100)
+                        .padding(.all)
+                        
                     Text("This video has \(numberOfLikes) likes")
                     Link("Terms of Service",destination: URL(string: "https://google.com")!)
                 }

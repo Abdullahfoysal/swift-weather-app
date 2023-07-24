@@ -96,8 +96,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "81"
             endingLineNumber = "81"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "C64231B1-67A9-485A-92E2-D807091CFA9A - 1c48433bbab3a1a7"
@@ -144,8 +144,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
             endingLineNumber = "80"
-            landmarkName = "MapViewModel"
-            landmarkType = "3">
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "EE6FB6AF-F62A-4386-B1B0-6B6F91CCE19F - 9f5d0a0d1881be54"
@@ -192,8 +192,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "MapViewModel"
-            landmarkType = "3">
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   uuid = "14E0B56F-0283-4DC0-9EA9-E8071557656A - 775b33cd22a1788d"
@@ -240,7 +240,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "locationManagerDidChangeAuthorization(_:)"
+            landmarkName = "checkLocationAuthorization()"
             landmarkType = "7">
             <Locations>
                <Location
@@ -288,7 +288,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "74"
             endingLineNumber = "74"
-            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkName = "locationManagerDidChangeAuthorization(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

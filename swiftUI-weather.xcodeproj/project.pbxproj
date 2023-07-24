@@ -26,8 +26,11 @@
 		BA5C0A472A5B139500DB27F7 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */; };
 		BA7B3B912A56956F0066CA91 /* Gaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B3B902A56956F0066CA91 /* Gaming.swift */; };
 		BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B3B922A56EEE50066CA91 /* TicTacView.swift */; };
+		BA92D2882A6E4E5700994606 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D2872A6E4E5700994606 /* OnBoardView.swift */; };
+		BA92D28A2A6E629900994606 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D2892A6E629900994606 /* SearchBarView.swift */; };
 		BAC8893E2A693E92009C92F0 /* NavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */; };
 		BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893F2A695751009C92F0 /* ImagePickerView.swift */; };
+		BAC889422A695F33009C92F0 /* MapBalloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC889412A695F33009C92F0 /* MapBalloon.swift */; };
 		BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */; };
 		BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACFB8F32A5537F800F75644 /* ContentView.swift */; };
 		BACFB8F62A5537FA00F75644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BACFB8F52A5537FA00F75644 /* Assets.xcassets */; };
@@ -103,8 +106,11 @@
 		BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		BA7B3B902A56956F0066CA91 /* Gaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gaming.swift; sourceTree = "<group>"; };
 		BA7B3B922A56EEE50066CA91 /* TicTacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacView.swift; sourceTree = "<group>"; };
+		BA92D2872A6E4E5700994606 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		BA92D2892A6E629900994606 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExampleView.swift; sourceTree = "<group>"; };
 		BAC8893F2A695751009C92F0 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		BAC889412A695F33009C92F0 /* MapBalloon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBalloon.swift; sourceTree = "<group>"; };
 		BACFB8EE2A5537F800F75644 /* swiftUI-weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI-weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_weatherApp.swift; sourceTree = "<group>"; };
 		BACFB8F32A5537F800F75644 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +190,8 @@
 		BACFB8E52A5537F800F75644 = {
 			isa = PBXGroup;
 			children = (
+				BAC889412A695F33009C92F0 /* MapBalloon.swift */,
+				BA92D2872A6E4E5700994606 /* OnBoardView.swift */,
 				BACFB8F02A5537F800F75644 /* swiftUI-weather */,
 				BA07DD762A5D6F4C00CBDBD0 /* testWatchOs Watch App */,
 				BA07DD922A5D88E800CBDBD0 /* watch-tictactoe Watch App */,
@@ -216,6 +224,7 @@
 				BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */,
 				BAC8893F2A695751009C92F0 /* ImagePickerView.swift */,
 				BA7B3B922A56EEE50066CA91 /* TicTacView.swift */,
+				BA92D2892A6E629900994606 /* SearchBarView.swift */,
 				BA5C0A462A5B139500DB27F7 /* GameViewModel.swift */,
 				BA5C0A442A5B056500DB27F7 /* Alerts.swift */,
 				BACFB9032A558E2600F75644 /* Video.swift */,
@@ -442,6 +451,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC889422A695F33009C92F0 /* MapBalloon.swift in Sources */,
 				BACFB9022A557EAA00F75644 /* VideoListView.swift in Sources */,
 				BA323CDA2A68EF7400026F86 /* MapView.swift in Sources */,
 				BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */,
@@ -451,10 +461,12 @@
 				BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */,
 				BA323CDD2A691C6D00026F86 /* SegmentView.swift in Sources */,
 				BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */,
+				BA92D28A2A6E629900994606 /* SearchBarView.swift in Sources */,
 				BA7B3B912A56956F0066CA91 /* Gaming.swift in Sources */,
 				BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */,
 				BA5C0A452A5B056500DB27F7 /* Alerts.swift in Sources */,
 				BAC8893E2A693E92009C92F0 /* NavigationExampleView.swift in Sources */,
+				BA92D2882A6E4E5700994606 /* OnBoardView.swift in Sources */,
 				BA5C0A472A5B139500DB27F7 /* GameViewModel.swift in Sources */,
 				BACFB9042A558E2600F75644 /* Video.swift in Sources */,
 			);
