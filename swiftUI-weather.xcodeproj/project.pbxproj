@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA07DD732A5D6F4C00CBDBD0 /* testWatchOs Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA07DD722A5D6F4C00CBDBD0 /* testWatchOs Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BA07DD782A5D6F4C00CBDBD0 /* testWatchOsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD772A5D6F4C00CBDBD0 /* testWatchOsApp.swift */; };
-		BA07DD7A2A5D6F4C00CBDBD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD792A5D6F4C00CBDBD0 /* ContentView.swift */; };
-		BA07DD7C2A5D6F4E00CBDBD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD7B2A5D6F4E00CBDBD0 /* Assets.xcassets */; };
-		BA07DD7F2A5D6F4E00CBDBD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA07DD7E2A5D6F4E00CBDBD0 /* Preview Assets.xcassets */; };
 		BA07DD8F2A5D88E700CBDBD0 /* watch-tictactoe Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BA07DD8E2A5D88E700CBDBD0 /* watch-tictactoe Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		BA07DD942A5D88E800CBDBD0 /* watch_tictactoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD932A5D88E800CBDBD0 /* watch_tictactoeApp.swift */; };
 		BA07DD962A5D88E800CBDBD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA07DD952A5D88E800CBDBD0 /* ContentView.swift */; };
@@ -28,6 +24,9 @@
 		BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7B3B922A56EEE50066CA91 /* TicTacView.swift */; };
 		BA92D2882A6E4E5700994606 /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D2872A6E4E5700994606 /* OnBoardView.swift */; };
 		BA92D28A2A6E629900994606 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92D2892A6E629900994606 /* SearchBarView.swift */; };
+		BAA4EE562A7D0CF200C01D8C /* AngelaPracticeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4EE552A7D0CF200C01D8C /* AngelaPracticeUI.swift */; };
+		BAA4EE592A7D0D7500C01D8C /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4EE582A7D0D7500C01D8C /* Pacifico.ttf */; };
+		BAA4EE5B2A7D114800C01D8C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4EE5A2A7D114800C01D8C /* Pacifico-Regular.ttf */; };
 		BAC8893E2A693E92009C92F0 /* NavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */; };
 		BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893F2A695751009C92F0 /* ImagePickerView.swift */; };
 		BAC889422A695F33009C92F0 /* MapBalloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC889412A695F33009C92F0 /* MapBalloon.swift */; };
@@ -86,10 +85,6 @@
 /* Begin PBXFileReference section */
 		BA07DD6D2A5D6F4C00CBDBD0 /* testWatchOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWatchOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA07DD722A5D6F4C00CBDBD0 /* testWatchOs Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "testWatchOs Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA07DD772A5D6F4C00CBDBD0 /* testWatchOsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWatchOsApp.swift; sourceTree = "<group>"; };
-		BA07DD792A5D6F4C00CBDBD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BA07DD7B2A5D6F4E00CBDBD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BA07DD7E2A5D6F4E00CBDBD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA07DD892A5D88E700CBDBD0 /* watch-tictactoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-tictactoe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA07DD8E2A5D88E700CBDBD0 /* watch-tictactoe Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watch-tictactoe Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA07DD932A5D88E800CBDBD0 /* watch_tictactoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watch_tictactoeApp.swift; sourceTree = "<group>"; };
@@ -108,6 +103,9 @@
 		BA7B3B922A56EEE50066CA91 /* TicTacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacView.swift; sourceTree = "<group>"; };
 		BA92D2872A6E4E5700994606 /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
 		BA92D2892A6E629900994606 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		BAA4EE552A7D0CF200C01D8C /* AngelaPracticeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelaPracticeUI.swift; sourceTree = "<group>"; };
+		BAA4EE582A7D0D7500C01D8C /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		BAA4EE5A2A7D114800C01D8C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExampleView.swift; sourceTree = "<group>"; };
 		BAC8893F2A695751009C92F0 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		BAC889412A695F33009C92F0 /* MapBalloon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBalloon.swift; sourceTree = "<group>"; };
@@ -147,25 +145,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BA07DD762A5D6F4C00CBDBD0 /* testWatchOs Watch App */ = {
-			isa = PBXGroup;
-			children = (
-				BA07DD772A5D6F4C00CBDBD0 /* testWatchOsApp.swift */,
-				BA07DD792A5D6F4C00CBDBD0 /* ContentView.swift */,
-				BA07DD7B2A5D6F4E00CBDBD0 /* Assets.xcassets */,
-				BA07DD7D2A5D6F4E00CBDBD0 /* Preview Content */,
-			);
-			path = "testWatchOs Watch App";
-			sourceTree = "<group>";
-		};
-		BA07DD7D2A5D6F4E00CBDBD0 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				BA07DD7E2A5D6F4E00CBDBD0 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		BA07DD922A5D88E800CBDBD0 /* watch-tictactoe Watch App */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,13 +166,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BAA4EE572A7D0D5900C01D8C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BAA4EE5A2A7D114800C01D8C /* Pacifico-Regular.ttf */,
+				BAA4EE582A7D0D7500C01D8C /* Pacifico.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		BACFB8E52A5537F800F75644 = {
 			isa = PBXGroup;
 			children = (
+				BAA4EE552A7D0CF200C01D8C /* AngelaPracticeUI.swift */,
 				BAC889412A695F33009C92F0 /* MapBalloon.swift */,
 				BA92D2872A6E4E5700994606 /* OnBoardView.swift */,
 				BACFB8F02A5537F800F75644 /* swiftUI-weather */,
-				BA07DD762A5D6F4C00CBDBD0 /* testWatchOs Watch App */,
 				BA07DD922A5D88E800CBDBD0 /* watch-tictactoe Watch App */,
 				BACFB8EF2A5537F800F75644 /* Products */,
 			);
@@ -214,6 +202,7 @@
 		BACFB8F02A5537F800F75644 /* swiftUI-weather */ = {
 			isa = PBXGroup;
 			children = (
+				BAA4EE572A7D0D5900C01D8C /* fonts */,
 				BA323CDB2A6909E200026F86 /* Info.plist */,
 				BACFB8F12A5537F800F75644 /* swiftUI_weatherApp.swift */,
 				BA51651A2A5E9FCF004A4BFA /* FormUI.swift */,
@@ -394,8 +383,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA07DD7F2A5D6F4E00CBDBD0 /* Preview Assets.xcassets in Resources */,
-				BA07DD7C2A5D6F4E00CBDBD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +407,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BACFB8F92A5537FA00F75644 /* Preview Assets.xcassets in Resources */,
+				BAA4EE5B2A7D114800C01D8C /* Pacifico-Regular.ttf in Resources */,
 				BACFB8F62A5537FA00F75644 /* Assets.xcassets in Resources */,
+				BAA4EE592A7D0D7500C01D8C /* Pacifico.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +420,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA07DD7A2A5D6F4C00CBDBD0 /* ContentView.swift in Sources */,
-				BA07DD782A5D6F4C00CBDBD0 /* testWatchOsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +449,7 @@
 				BA323CDD2A691C6D00026F86 /* SegmentView.swift in Sources */,
 				BACFB8F22A5537F800F75644 /* swiftUI_weatherApp.swift in Sources */,
 				BA92D28A2A6E629900994606 /* SearchBarView.swift in Sources */,
+				BAA4EE562A7D0CF200C01D8C /* AngelaPracticeUI.swift in Sources */,
 				BA7B3B912A56956F0066CA91 /* Gaming.swift in Sources */,
 				BA7B3B932A56EEE50066CA91 /* TicTacView.swift in Sources */,
 				BA5C0A452A5B056500DB27F7 /* Alerts.swift in Sources */,
@@ -491,7 +479,6 @@
 		BA07DD802A5D6F4E00CBDBD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2FT7VLBPP5;
@@ -506,7 +493,6 @@
 		BA07DD812A5D6F4E00CBDBD0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2FT7VLBPP5;
@@ -795,7 +781,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swiftUI-weather/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This need app need your location to show on map";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This need app need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -806,7 +791,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.swiftUI-weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaz.com.foysal.swiftUI-weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -827,7 +812,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swiftUI-weather/Info.plist";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This need app need your location to show on map";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This need app need your location to show on map";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -838,7 +822,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.foysal.swiftUI-weather";
+				PRODUCT_BUNDLE_IDENTIFIER = "kaz.com.foysal.swiftUI-weather";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

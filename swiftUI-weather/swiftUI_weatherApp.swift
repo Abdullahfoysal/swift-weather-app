@@ -12,8 +12,7 @@ struct swiftUI_weatherApp: App {
     var body: some Scene {
         WindowGroup {
             Group {
-                ImagePickerView()
-                ImagePickerView()
+                AngelaPracticeUI()
             }
            
         }
