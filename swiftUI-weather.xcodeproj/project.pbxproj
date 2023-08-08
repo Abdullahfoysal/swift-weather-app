@@ -28,6 +28,7 @@
 		BAA4EE592A7D0D7500C01D8C /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4EE582A7D0D7500C01D8C /* Pacifico.ttf */; };
 		BAA4EE5B2A7D114800C01D8C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA4EE5A2A7D114800C01D8C /* Pacifico-Regular.ttf */; };
 		BAA4EE5D2A7D29F900C01D8C /* DiceAppUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA4EE5C2A7D29F900C01D8C /* DiceAppUIView.swift */; };
+		BAB6A8FF2A82642400A85A8E /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB6A8FE2A82642400A85A8E /* MyWebView.swift */; };
 		BAC8893E2A693E92009C92F0 /* NavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */; };
 		BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC8893F2A695751009C92F0 /* ImagePickerView.swift */; };
 		BAC889422A695F33009C92F0 /* MapBalloon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC889412A695F33009C92F0 /* MapBalloon.swift */; };
@@ -108,6 +109,7 @@
 		BAA4EE582A7D0D7500C01D8C /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 		BAA4EE5A2A7D114800C01D8C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
 		BAA4EE5C2A7D29F900C01D8C /* DiceAppUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceAppUIView.swift; sourceTree = "<group>"; };
+		BAB6A8FE2A82642400A85A8E /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		BAC8893D2A693E92009C92F0 /* NavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExampleView.swift; sourceTree = "<group>"; };
 		BAC8893F2A695751009C92F0 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		BAC889412A695F33009C92F0 /* MapBalloon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBalloon.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				BAA4EE5C2A7D29F900C01D8C /* DiceAppUIView.swift */,
+				BAB6A8FE2A82642400A85A8E /* MyWebView.swift */,
 				BAA4EE552A7D0CF200C01D8C /* AngelaPracticeUI.swift */,
 				BAC889412A695F33009C92F0 /* MapBalloon.swift */,
 				BA92D2872A6E4E5700994606 /* OnBoardView.swift */,
@@ -447,6 +450,7 @@
 				BACFB9002A555E2100F75644 /* WeatherButton.swift in Sources */,
 				BA51651B2A5E9FCF004A4BFA /* FormUI.swift in Sources */,
 				BAA4EE5D2A7D29F900C01D8C /* DiceAppUIView.swift in Sources */,
+				BAB6A8FF2A82642400A85A8E /* MyWebView.swift in Sources */,
 				BAC889402A695751009C92F0 /* ImagePickerView.swift in Sources */,
 				BACFB8F42A5537F800F75644 /* ContentView.swift in Sources */,
 				BACFB9082A5594BD00F75644 /* VideoDetailsView.swift in Sources */,
